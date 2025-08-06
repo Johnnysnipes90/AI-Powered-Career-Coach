@@ -32,7 +32,7 @@ This is an end-to-end AI-powered assistant that helps job seekers and profession
 ## 🗂️ Project Structure
 
 ```
-career-coach-ai/
+AI-Powered-Career-Coach/
 │
 ├── .gitignore
 ├── README.md
@@ -76,4 +76,46 @@ career-coach-ai/
     ├── test_recommendation.py
     └── test_api.py
 ```
+
 ---
+
+## 📦 Setup Instructions
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/Johnnysnipes90/AI-Powered-Career-Coach.git
+cd AI-Powered-Career-Coach
+```
+### 2. Create virtual environment & install dependencies
+```bash
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+uv pip install -r requirements.txt
+```
+### 3. Run FastAPI Backend
+```bash
+uvicorn app.main:app --reload
+```
+### 4. Run Streamlit Frontend
+```bash
+streamlit run frontend/streamlit_app.py
+```
+### 5. 📦 Docker
+```bash
+docker-compose up --build
+```
+### 🔒 API Keys
+```bash
+OPENAI_API_KEY=your-openai-key
+PINECONE_API_KEY=your-pinecone-key
+```
+---
+## 📜 License
+MIT License
+---
+
+## 👨‍💻 Author
+Olalemi John Oluwatosin
+📧 johnolalemi90@gmail.com
+🔗 LinkedIn
+🔗 GitHub
