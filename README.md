@@ -180,7 +180,8 @@ streamlit run frontend/streamlit_app.py
 ---
 
 ## Dockerized Run
-docker-compose up --build
+```docker-compose up --build
+``` 
 ---
 
 
