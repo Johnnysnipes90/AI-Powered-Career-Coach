@@ -1,3 +1,9 @@
+# app/services/resume_feedback.py
+"""
+Service to handle resume feedback using LLMs.
+This module interacts with the Ollama API to get feedback on resumes.
+"""
+
 import requests
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
