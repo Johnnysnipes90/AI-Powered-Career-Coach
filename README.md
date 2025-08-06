@@ -222,7 +222,7 @@ PINECONE_API_KEY=your-pinecone-key
 ---
 
 ## 👨‍💻 Author
-Olalemi John Oluwatosin
-📧 johnolalemi90@gmail.com
-🔗 LinkedIn: www.linkedin.com/in/john-olalemi
-🔗 GitHub: github.com/Johnnysnipes90
+- Olalemi John Oluwatosin
+- 📧 johnolalemi90@gmail.com
+- 🔗 LinkedIn: www.linkedin.com/in/john-olalemi
+- 🔗 GitHub: github.com/Johnnysnipes90
