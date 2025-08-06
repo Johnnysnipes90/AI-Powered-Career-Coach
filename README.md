@@ -204,13 +204,19 @@ PINECONE_API_KEY=your-pinecone-key
 | GET    | /resume/{id}     | Retrieve feedback summary   |
 
 🔹 Job Matching
+| Method | Endpoint         | Description                 |
+| ------ | ---------------- | --------------------------- |
 | POST | /job/match | Match resume to job ad |
 | POST | /job/summarize | Summarize job description |
 
 🔹 Career Recommendation
+| Method | Endpoint         | Description                 |
+| ------ | ---------------- | --------------------------- |
 | POST | /career/recommend | Suggest career paths |
 
 🔹 Mock Interview
+| Method | Endpoint         | Description                 |
+| ------ | ---------------- | --------------------------- |
 | POST | /interview/start | Start mock interview |
 | POST | /interview/answer | Submit answer for feedback |
 ---
