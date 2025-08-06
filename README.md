@@ -24,7 +24,8 @@ This is an end-to-end AI-powered assistant that helps job seekers and profession
 | FastAPI      | Backend API for endpoints |
 | Streamlit    | Frontend interface |
 | Pinecone     | Vector DB for search |
-| Docker       | Containerization |
+| Docker & Docker-compose      | Containerization |
+| Dependency Management	| uv |
 | Render / Railway | Deployment |
 
 ---
