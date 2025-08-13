@@ -1,5 +1,13 @@
+# requirements.txt
+"""A list of Python packages required for the AI-Powered Career Coach project.
+This file is used to install dependencies via pip.
+"""
+
 fastapi
 uvicorn
-pydantic
 streamlit
+langchain
+langchain-community
+PyPDF2
 requests
+python-multipart
